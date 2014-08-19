@@ -1,0 +1,153 @@
+/*
+|	CSS for layout/template
+*/
+body{
+	font-size: 14px;
+	background: #F2F4F5 url(../images/bkgrd.jpg) no-repeat fixed top left;
+}
+
+nav.navbar{
+	width: 100%;
+	padding: 0 20px;
+	border-radius: 0;
+	margin-bottom: 0px;
+}
+
+div#contentsection{
+	position: relative;
+	top: 25px;
+	padding: 20px 15px;
+}
+
+
+/*
+|	CSS for home page
+*/
+.homeRow{
+	position: relative;
+}
+
+h1#homeTitle{
+	font-size: 72px;
+	text-align: right;
+	margin: 100px 20px 130px 0px;
+}
+
+.homeRow div a{
+	display: inline-block;
+	color: #333 !important;
+}
+
+.homeRow div a i {
+	font-size: 100px;
+}
+
+/*
+|	CSS for About Me page
+*/
+i#aboutMeIcon{
+	font-size: 200px;
+}
+
+div#aboutMeContent{
+	font-size: 20px;
+	text-align: left;
+}
+
+/*
+|	CSS for Suggestion Box page
+*/
+div#suggestion-right{
+	border: solid 3px black;
+	border-radius: 25px;
+	min-height: 480px;
+	max-height: 550px;
+	overflow: scroll;
+}
+
+/*
+|	Chat Bubble
+*/
+p.speech, div.speech
+{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding: 10px 15px;
+	background-color: #fff;
+	border: 3px solid #666;
+	margin-bottom: 50px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 20px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+}
+
+div.speechAbout:before{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -30px;
+	top: 15px;
+	border: 15px solid;
+	border-color: transparent #666 #666 transparent;
+}
+
+div.speechAbout:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -21px;
+	top: 11px;
+	border: 15px solid;
+	border-color: transparent #fff #fff transparent;
+}
+
+p.speechComment:before
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 30px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #666 transparent transparent #666;
+}
+
+p.speechComment:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 33px;
+	bottom: -23px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+
+/*
+|	CSS for contact page
+*/
+form.center-form{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto ;
+}
+
+/*
+|	CSS for multiple pages
+*/
+#processSpinner{
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	visibility: hidden;
+	margin-left: 20px;
+}
