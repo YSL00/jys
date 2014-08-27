@@ -11,11 +11,11 @@
 		{{ Form::open(array('route' => 'post_comment', 'id' => 'suggestionForm')) }}
 			<div class="form-group">
 				<label for="name">Your Name:</label>
-				<input type="text" name="name" class="form-control" placeholder="Please enter your name">
+				<input type="text" id="name" name="name" class="form-control" placeholder="Please enter your name">
 			</div>
 			<div class="form-group">
 				<label for="name">Your Suggestions:</label>
-				<textarea type="text" name="comment" class="form-control" placeholder="Leave a comment" rows="5"></textarea>
+				<textarea type="text" id="comment" name="comment" class="form-control" placeholder="Leave a comment" rows="5"></textarea>
 			</div>
 			<div class="form-group">
 				<input type="submit" value="Post My Comment" id="submitCommentBtn" class="btn btn-primary">

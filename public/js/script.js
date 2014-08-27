@@ -37,6 +37,8 @@ $(document).ready(function(){
 					var newComment = $('<div></div>').attr('id', 'comment');
 					$('<p></p>').text(data.comment).attr('class', 'speech speechComment').appendTo(newComment);
 					$(newComment).appendTo('div#suggestion-right');
+					$('input#name').val('');
+					$('textarea#comment').val('');
 					$('#processSpinner').css('visibility', 'hidden');
 				} else{
 
